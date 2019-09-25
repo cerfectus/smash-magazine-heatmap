@@ -18,11 +18,34 @@ nav {
   flex-basis: 100%;
   height: 100px;
   background-color: #cac9c9;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
+
+nav p {
+  font-size: 22px;
+  color: white;
+
+}
+
 .article-container {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+article p {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:37.5px;
+  color: white;
+  position: relative;
+  top:50%;
 }
 
 article {
@@ -53,6 +76,11 @@ article {
   flex-basis: 100%;
 }
 
+.membership p ol li {
+  font-size: 20px;
+  
+}
+
 .read-more {
   height: 448px;
   display: flex;
@@ -62,6 +90,20 @@ article {
 .read-1 {
   background-color: rgb(255, 255, 255);
   flex-basis: 33.333%;
+}
+
+.text h2 {
+  color: black;
+  font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.text p {
+  color: black;
+  font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 29px;
 }
 
 .read-2 {
@@ -82,11 +124,20 @@ article {
 
 .partner {
   flex: 1;
-  background-color: rgb(180, 180, 180);
+  background-color: #adadad;
+  margin: 100px 50px 100px 50px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  display:flex;
+
 }
 .community {
   flex: 2;
-  background-color: #cac9c9;
+  background-color: #878787;
+  margin: 50px 50px 50px 50px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  display:flex;
 }
 
 .read-more1 {
@@ -102,6 +153,19 @@ article {
   flex: 2;
   background-color: rgb(211, 87, 87);
 }
+.este-div p h2 {
+  position: relative;
+  top: 50px;
+  
+}
+.little-div {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  flex-basis: 100%;
+}
+
+
 
 .load-more {
     display: flex;
@@ -112,7 +176,7 @@ article {
 }
 
 .load-more h2 {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid rgb(68, 68, 68);
 }
 .green-div {
     flex-basis: 100%;
@@ -164,16 +228,54 @@ article {
 
 .newsletter {
   flex: 2;
-  background-color: red;
+  background-color: #d3d3d3;
+  padding: 10%; 
+  margin: 0 3%;
   border: 2px solid white;
-  flex-basis: calc(100% - 33.33%);
+  flex-basis: calc(100% - 39.33%);
+  border-radius: 4%;
   height: 900px;
 }
 
 footer {
   flex-basis: 100%;
-  background-color: #d33a2c;
+  background-color: #d3d3d3;
   height: 700px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: space-around;
 }
 
+footer ul {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0% 9%;
+  list-style: none;
+}
 
+footer ul li {
+  font-size: calc(1.5em + .2vw);
+  font-weight: bold;
+  margin: 0% 2%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 10%;
+}
+
+.links div {
+  flex-basis: 24%;
+}
