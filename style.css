@@ -12,6 +12,7 @@ body {
 main {
   width: 100%;
   height: 100%;
+ 
 }
 
 nav {
@@ -54,8 +55,7 @@ article {
 .read-more {
     height: 448px;
     display: flex;
-    align-content: stretch;
-    flex-wrap: wrap;
+    
 }
 
 .read-1 {
@@ -81,11 +81,13 @@ article {
 .community-container {
     display: flex;
     height:600px;
-    align-content: stretch;
+    position: relative;
+    top: 190px;
 }
 
 .partner {
-    flex: 1;
+    flex:1;
+    background-color: aliceblue;
 }
 .community {
     flex: 2;
