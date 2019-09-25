@@ -73,11 +73,6 @@ article {
     flex-basis: 33.333%;
 }
 
-.read-4 {
-    background-color: black;
-    flex-basis: 33.333%;
-}
-
 .community-container {
     display: flex;
     height:600px;
@@ -90,6 +85,23 @@ article {
     background-color: aliceblue;
 }
 .community {
+    flex: 2;
+    background-color: rgb(211, 87, 87);
+}
+
+.read-more1 {
+    height: 448px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 190px;
+    
+}
+
+.read-4 {
+    flex: 1;
+}
+.community1 {
     flex: 2;
     background-color: rgb(211, 87, 87);
 }
