@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -74,10 +74,6 @@ article {
   height: 633px;
   background-image: linear-gradient(#9a9a9c, #505050);
   flex-basis: 100%;
-}
-
-.membership p ol li {
-  font-size: 20px;
 }
 
 .read-more {
@@ -154,6 +150,10 @@ article {
   background-color: rgb(211, 87, 87);
 }
 
+.load-more h2 {
+  border-bottom: 3px solid rgb(68, 68, 68);
+}
+
 .este-div p h2 {
   display: flex;
   justify-content: center;
@@ -204,10 +204,6 @@ article {
   height: 167px;
   align-items: center;
   justify-content: center;
-}
-
-.load-more h2 {
-  border-bottom: 3px solid rgb(68, 68, 68);
 }
 
 .green-div {
@@ -361,6 +357,24 @@ article {
   margin: 5% 0%;
 }
 
+footer {
+  flex-basis: 100%;
+  background-color: #d3d3d3;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0% 9%;
+  list-style: none;
+}
+
 .curated-articles ul {
   margin-left: 20%;
 }
@@ -392,28 +406,14 @@ article {
   border-radius: 50%;
 }
 
-footer {
-  flex-basis: 100%;
-  background-color: #d3d3d3;
-  height: 700px;
-  display: flex;
-  align-items: center;
-  flex-flow: column;
-  justify-content: space-around;
-}
-
-footer ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0% 9%;
-  list-style: none;
-}
-
 footer ul li {
   font-size: calc(1.5em + 0.2vw);
   font-weight: bold;
   margin: 0% 2%;
+}
+
+.membership p ol li {
+  font-size: 20px;
 }
 
 .copyright {
